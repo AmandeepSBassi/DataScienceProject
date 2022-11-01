@@ -1,0 +1,22 @@
+col_name	desc	data_type	"scale (N, O, I, R)"	domain	missing_values
+Row ID	Row Number				
+Order ID	Order Unique Identification Code				
+Order Date	Date of Order				
+Ship Date	Date of Order Shipment				
+Ship Mode	Method of Shipment				
+Customer ID	Customer Unique Identification Code				
+Customer Name	Customer Name				
+Segment	Customer's Market Segment				
+Country	Customer's Country				
+City	Customer's City				
+State	Customer's State				
+Postal Code	Customer's Postal Code				
+Region	Customer's Region				
+Product ID	Product Unique Identification Code				
+Category	Product Categroy				
+Sub-Category	Product Sub-Category				
+Product Name	Name of Product				
+Sales	Sale Amount per Product				
+Quantity	Quantity of Product Sold				
+Discount	Percent Discount per Product				
+Profit	Profit per Product				
