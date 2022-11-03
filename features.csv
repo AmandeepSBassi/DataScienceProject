@@ -1,22 +1,22 @@
-col_name	desc	data_type	"scale (N, O, I, R)"	domain	missing_values
-Row ID	Row Number				
-Order ID	Order Unique Identification Code				
-Order Date	Date of Order				
-Ship Date	Date of Order Shipment				
-Ship Mode	Method of Shipment				
-Customer ID	Customer Unique Identification Code				
-Customer Name	Customer Name				
-Segment	Customer's Market Segment				
-Country	Customer's Country				
-City	Customer's City				
-State	Customer's State				
-Postal Code	Customer's Postal Code				
-Region	Customer's Region				
-Product ID	Product Unique Identification Code				
-Category	Product Categroy				
-Sub-Category	Product Sub-Category				
-Product Name	Name of Product				
-Sales	Sale Amount per Product				
-Quantity	Quantity of Product Sold				
-Discount	Percent Discount per Product				
-Profit	Profit per Product				
+col_name,desc,data_type,"scale (N, O, I, R)",domain,missing_values
+Row ID,Row Number,Int,I,"[1, ..., 9994]",
+Order ID,Order Unique Identification Code,String,N,"['CA-2016-152156', 'CA-2016-138688',  'US-2015-108966', ... 'CA-2014-110422', 'CA-2017-121258', 'CA-2017-119914']",
+Order Date,Date of Order,Datetime,I,"[1/3/2014, ..., 12/30/2017]",
+Ship Date,Date of Order Shipment,Datetime,I,"[1/7/2014, ..., 1/05/2018",
+Ship Mode,Method of Shipment,String,N,"['Second Class', 'Standard Class', 'First Class', 'Same Day'] ",
+Customer ID,Customer Unique Identification Code,String,N,Any String,
+Customer Name,Customer Name,String,N,Any String,
+Segment,Customer's Market Segment,String,N,"['Consumer',  'Corporate',  'Home Office']",
+Country,Customer's Country,String,N,['United States'],
+City,Customer's City,String,N,Any String,
+State,Customer's State,String,N,"['Kentucky', 'California', 'Florida', 'North Carolina', 'Washington', 'Texas', 'Wisconsin', 'Utah', 'Nebraska', 'Pennsylvania', 'Illinois', 'Minnesota', 'Michigan', 'Delaware', 'Indiana', 'New York', 'Arizona', 'Virginia', 'Tennessee', 'Alabama', 'South Carolina', 'Oregon', 'Colorado', 'Iowa', 'Ohio', 'Missouri', 'Oklahoma', 'New Mexico', 'Louisiana', 'Connecticut', 'New Jersey', 'Massachusetts', 'Georgia', 'Nevada', 'Rhode Island', 'Mississippi', 'Arkansas', 'Montana', 'New Hampshire', 'Maryland', 'District of Columbia', 'Kansas', 'Vermont', 'Maine', 'South Dakota', 'Idaho', 'North Dakota', 'Wyoming', 'West Virginia'] ",
+Postal Code,Customer's Postal Code,String,N,"[1040, ..., 99301]",
+Region,Customer's Region,String,N,"['South', 'West', 'Central', 'East']",
+Product ID,Product Unique Identification Code,String,N,"['FUR-BO-10001798', 'FUR-CH-10000454', 'OFF-LA-10000240', ..., 'OFF-AP-10003099', 'TEC-PH-10002645', 'OFF-ST-10001627']",
+Category,Product Categroy,String,N,"['Furniture', 'Office Supplies', 'Technology']",
+Sub-Category,Product Sub-Category,String,N,"['Bookcases', 'Chairs', 'Labels', 'Tables', 'Storage', 'Furnishings', 'Art', 'Phones', 'Binders', 'Appliances', 'Paper', 'Accessories', 'Envelopes', 'Fasteners', 'Supplies', 'Machines', 'Copiers']",
+Product Name,Name of Product,String,N,"['Bush Somerset Collection Bookcase', 'Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back', 'Self-Adhesive Address Labels for Typewriters by Universal', ..., 'Eureka Hand Vacuum, Bagless', 'LG G2', 'Eldon Jumbo ProFile Portable File Boxes Graphite/Black'] ",
+Sales,Sale Amount per Product,float,R,[0.00-22638.50],
+Quantity,Quantity of Product Sold,int,R,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+Discount,Percent Discount per Product,float,R,[0.00-1.00],
+Profit,Profit per Product,float,R,[-6600.00-8400.00],
